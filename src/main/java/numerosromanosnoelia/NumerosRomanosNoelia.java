@@ -108,11 +108,12 @@ public class NumerosRomanosNoelia {
                         //se comprobará si la posición i del nombre es una vocal
                         //por lo tanto se sumará en contador el número de
                         //iteraciones en las que se encuentra una vocal
-                        if (nombre.charAt(i) == 'a' || 
-                                nombre.charAt(i) == 'e' ||
-                                nombre.charAt(i) == 'i' || 
-                                nombre.charAt(i) == 'o' ||
-                                nombre.charAt(i) == 'u') {
+                        char letra = nombre.charAt(i);
+                        if (letra == 'a' || 
+                                letra == 'e' ||
+                                letra == 'i' || 
+                                letra == 'o' ||
+                                letra == 'u') {
                             contador++;
                         }
                     }
